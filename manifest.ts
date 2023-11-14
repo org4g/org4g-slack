@@ -8,9 +8,9 @@ import CreateNewIssueWorkflow from "./workflows/create_new_issue.ts";
  * Learn more: https://api.slack.com/automation/manifest
  */
 export default Manifest({
-  name: "org4g-slack",
+  name: "DataForGood (D4G)",
   description: "Bringing oft-used GitHub functionality into Slack",
-  icon: "assets/default_new_app_icon.png",
+  icon: "assets/logo-dfg-1200.png",
   externalAuthProviders: [GitHubProvider],
   workflows: [CreateNewIssueWorkflow],
   /**
